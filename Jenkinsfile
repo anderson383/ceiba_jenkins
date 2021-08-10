@@ -1,9 +1,12 @@
 pipeline {
     agent any
+    tools {
+      nodejs 'nodejs'
+  }
     environment {
-          // General Variables for Pipeline
-          PROJECT_ROOT = 'Veterinaria'
-      }
+        // General Variables for Pipeline
+        PROJECT_ROOT = 'Veterinaria'
+    }
     stages {
         stage('Build') {
             steps {
