@@ -49,7 +49,7 @@ pipeline {
                       -Dsonar.projectKey=SimpleExpressExample:Test \
                       -Dsonar.projectName=SimpleExpressExample \
                       -Dsonar.projectVersion=0.0.${BUILD_NUMBER} \
-                      -Dsonar.host.url=http://mysonarqube:9000 \
+                      -Dsonar.host.url=http://192.168.0.9:9000 \
                       -Dsonar.sources=./${PROJECT_ROOT}/app.js,./${PROJECT_ROOT}/config/db.config.js,./${PROJECT_ROOT}/routes/developers.js \
                       -Dsonar.login=admin \
                       -Dsonar.password=admin \
