@@ -33,7 +33,7 @@ pipeline {
         stage('Generate coverage report') {
             steps {
               // Run code-coverage reports
-              sh "cd ${PROJECT_ROOT}; npm run coverage"
+              sh "cd ${PROJECT_ROOT}; npm test -- --coverage --watchAll=false"
             }
         }
         stage('scan') {
