@@ -18,7 +18,7 @@ export const Layout: React.FC<LayoutProps> = ({
       <Helmet>
         {
           // eslint-disable-next-line
-          title && <title>Bloque React ⚛️ | {title}</title>
+          title && <title>Veterinaria️| {title}</title>
         }
         {description && <meta name="description" content={description} />}
       </Helmet>

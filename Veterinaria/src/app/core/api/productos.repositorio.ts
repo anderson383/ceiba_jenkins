@@ -8,3 +8,7 @@ export const ProductoRepositorio = {
   consultarPorPagina: (page: number) =>
     axiosIntance.get(`/articles?${limit(NUMERO_REGISTROS, page)}`),
 };
+
+export const ProductosVeterinariaRepositorio = {
+
+}
