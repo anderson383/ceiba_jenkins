@@ -13,7 +13,7 @@ const DataTablePagination: React.FC<DataTablePagination> = ({length, currentPage
             <nav aria-label="...">
                 <ul className="pagination justify-content-end mb-0">
                     <li
-                        onClick={() => setCurrentPage(currentPage - 1)}
+                        onClick={() => currentPage !== 1 && setCurrentPage(currentPage - 1)}
                         className={`page-item  ${currentPage !== 1 ? '' : 'disabled'}`}
                     >
                         <span className="page-link" >
@@ -30,7 +30,7 @@ const DataTablePagination: React.FC<DataTablePagination> = ({length, currentPage
                     }
                     <li
                         className={`page-item  ${currentPage !== length ? '' : 'disabled'}`}
-                        onClick={() => setCurrentPage(currentPage + 1)}
+                        onClick={() => currentPage !== length && setCurrentPage(currentPage + 1)}
                     >
                         <span className="page-link"   >
                             <i className="fas fa-angle-right"></i>

@@ -1,10 +1,18 @@
 import * as React from 'react';
 import BreadCrump, {RutasBreadCrump} from '../../../../shared/components/BreadCrump'
-import DataTable from "../../../../shared/components/DataTable";
+import DataTable, {DataTableColumn} from "../../../../shared/components/DataTable";
 export const GestionProductos = () => {
     let routes:Array<RutasBreadCrump> = [
         { nombre: "", path: "/", icon: "fas fa-home" },
         { nombre: "Productos", path: "/productos", icon: "" }
+    ]
+    let columns:Array<DataTableColumn> = [
+        { nombre: 'Imagen', code: '' },
+        { nombre: 'Nombre', code: 'nombre' },
+        { nombre: 'Precio', code: '' },
+        { nombre: 'Descuento', code: '' },
+        { nombre: 'Precio total', code: '' },
+        { nombre: 'Opciones', code: '' }
     ]
     return (
         <>
@@ -12,6 +20,7 @@ export const GestionProductos = () => {
             <DataTable
                 name="Listado de tus productos"
                 endpoint="/productos/"
+                columns={columns}
             />
         </>
     )
