@@ -16,6 +16,7 @@ pipeline {
     environment {
         // General Variables for Pipeline
         PROJECT_ROOT = 'Veterinaria'
+        CRED = credentials("colombiase1")
     }
     stages {
         stage('Build') {
