@@ -65,7 +65,7 @@ pipeline {
                       -Dsonar.password=admin \
                       -Dsonar.javascript.lcov.reportPaths=./${PROJECT_ROOT}/coverage/lcov.info"
                 }
-                timeout(time: 5, unit: 'MINUTES') {
+                timeout(time: 10, unit: 'MINUTES') {
                   // In case of SonarQube failure or direct timeout exceed, stop Pipeline
                   waitForQualityGate abortPipeline: qualityGateValidation(waitForQualityGate())
                 }
