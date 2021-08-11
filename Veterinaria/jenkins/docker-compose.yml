@@ -24,7 +24,7 @@ services:
       resources:
         limits:
           cpus: "2"
-          memory: 2G
+          memory: 10G
   ceibasonarqube:
     container_name: ceiba_sonarqube
     # build: ./sonarqube_home
@@ -45,7 +45,7 @@ services:
       resources:
         limits:
           cpus: "2"
-          memory: 3G
+          memory: 10G
 
 # To use docker-volume (custom_jenkins_home) instead of a directory path-file
 volumes:
