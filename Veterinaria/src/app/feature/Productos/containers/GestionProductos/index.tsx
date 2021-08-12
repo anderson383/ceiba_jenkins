@@ -1,9 +1,10 @@
 import * as React from 'react';
 import BreadCrump, {RutasBreadCrump} from '../../../../shared/components/BreadCrump'
 import DataTable, {DataTableColumn} from "../../../../shared/components/DataTable";
+
 export const GestionProductos = () => {
     let routes:Array<RutasBreadCrump> = [
-        { nombre: "", path: "/", icon: "fas fa-home" },
+        { nombre: "Home", path: "/", icon: "fas fa-home" },
         { nombre: "Productos", path: "/productos", icon: "" }
     ]
     let columns:Array<DataTableColumn> = [

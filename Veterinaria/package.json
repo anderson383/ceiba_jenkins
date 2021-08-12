@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "@types/react-helmet": "^6.0.0",
     "axios": "^0.19.2",
     "cross-env": "^7.0.2",
