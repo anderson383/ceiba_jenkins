@@ -1,14 +1,10 @@
 import * as React from 'react';
-import {HeaderNav} from './styles';
-import LogoCeiba from 'assets/img/logo-ceiba.png';
-import {NavBrand} from './NavBrand';
-import {NavList} from './NavList';
-import {Button, AppBar, IconButton, Typography, MenuItem, Menu, makeStyles, Toolbar, Icon} from "@material-ui/core";
+import {AppBar, Icon, IconButton, Menu, MenuItem, Toolbar, Typography, makeStyles} from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     headerApp: {
-        marginTop: 20,
-        marginBottom: 20
+        marginTop: 0,   
+        boxShadow: '0 4px 24px 0 rgb(34 41 47 / 10%)',
     },
     root: {
         flexGrow: 1,
@@ -22,18 +18,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const NavigationHeader: React.FC = () => {
-    const routes = [
-        {label: 'Home', url: '/home'},
-        {label: 'Productos', url: '/productos'},
-    ];
+
     const classes = useStyles();
-    const [auth, setAuth] = React.useState(true);
+    const [auth] = React.useState(true);
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
-
-    const handleChange = (event:any) => {
-        setAuth(event.target.checked);
-    };
 
     const handleMenu = (event:any) => {
         setAnchorEl(event.currentTarget);
@@ -84,10 +73,6 @@ export const NavigationHeader: React.FC = () => {
                     )}
                 </Toolbar>
             </AppBar>
-            {/*<HeaderNav>
-              <NavBrand imgSrc={LogoCeiba} text="Ceiba Software"></NavBrand>
-              <NavList items={routes} />
-          </HeaderNav>*/}
         </>
 );
 };

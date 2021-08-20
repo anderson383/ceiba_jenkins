@@ -1,133 +1,118 @@
-import * as React from 'react'
-import DataTablePagination from "./DataTablePagination";
-import {useEffect, useState} from "react";
-import {getItemsData} from "./services/DataTableService";
-import {Productos} from "../../../feature/Productos/models/Producto";
+
+import * as Material from '@material-ui/core';
+import * as PropTypes from 'prop-types';
+import * as React from 'react';
+import { Link } from 'app/shared/components/Link';
+import {Productos} from '../../../feature/Productos/models/Producto';
+import {getItemsData} from './services/DataTableService';
 
 export interface DataTableColumn {
     nombre: string
     code: string
 }
 
+export interface DataTableOptionsColumn {
+    nombre: string
+    action: string
+}
+
 interface DataTableProps {
     name: string
     endpoint: string
+    opctions?: Array<DataTableOptionsColumn>
     columns: Array<DataTableColumn>
+    filters: any,
+    actionTable: (action: string, element: Productos) => void
 }
 
 
+const DataTable:React.FC<DataTableProps> = (props) => {
+    const {endpoint, columns, filters, actionTable} = props;
 
-const DataTable:React.FC<DataTableProps> = ({name, endpoint, columns}) => {
-    const [currentPage, setCurrentPage] = useState(1)
-    const [itemsDataTable, setItemsDataTable] = useState<Array<Productos>>([])
+    const [currentPage] = React.useState(1);
+    const [itemsDataTable, setItemsDataTable] = React.useState<Array<Productos>>([]);
 
-    const buildColumms = () => {
+    React.useEffect(() => {
+        getListData();
+    }, [currentPage, filters]);
 
-    }
 
-    useEffect(() => {
-        getItemsData(endpoint + '?_page=' + currentPage).then(response => {
-            console.log(response)
-            setItemsDataTable(response.data)
-        })
-    }, [currentPage])
+    const getListData = () => {
+        getItemsData(endpoint, { _page: currentPage, ...filters}).then(response => {
+            setItemsDataTable(response.data);
+        });
+    };
+
     return (
         <>
-            <div className="row">
-                <div className="col">
-                    <div className="card bg-default shadow">
-                        <div className="card-header bg-transparent border-0">
-                            <h3 className="text-white mb-0">{name}</h3>
-                        </div>
-                        <div className="table-responsive">
-                            <table className="table align-items-center table-dark table-flush">
-                                <thead className="thead-dark">
-                                <tr>
-                                    {
-                                        columns.map(colum => (
-                                            <>
-                                                <th scope="col" className="sort" data-sort={colum.code}>{colum.nombre}</th>
-                                            </>
-                                        ))
-                                    }
-                                </tr>
-                                </thead>
-                                <tbody className="list">
-                                {
-                                    itemsDataTable.map(elem => (
-                                        <>
-                                            <tr>
-                                                <td scope="row">
-                                                    <div className="media align-items-center text-center">
-                                                        <a href="#" className="avatar rounded-circle mr-3">
-                                                            <img alt="Image placeholder" src={elem.imagen} />
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td className="budget">
-                                                    <div className="media-body">
-                                                        <span className="name mb-0 text-sm">{elem.nombre}</span>
-                                                    </div>
-                                                </td>
-                                                <td className="budget">$ {elem.precio} EUR</td>
-                                                <td>
-                                                  <span className="badge badge-dot mr-4">
-                                                      {
-                                                          elem.descuento ? (
-                                                              <>
-                                                                  <i className="bg-success"></i>
-                                                                  <span className="status">{elem.descuento_porcenaje} %</span>
-                                                              </>
-                                                          ) : (
-                                                              <>
-                                                                  <i className="bg-warning"></i>
-                                                                  <span className="status">No tiene</span>
-                                                              </>
-                                                          )
-                                                      }
-                                                  </span>
-                                                </td>
-                                                <td>
-                                                    <div className="d-flex align-items-center">
-                                                        {
-                                                            elem.descuento_porcenaje ? (
-                                                                <>
-                                                                    <span className="completion mr-2">$ { elem.precio - elem.precio * elem.descuento_porcenaje / 100 } EUR</span>
-                                                                </>
-                                                            ) : (
-                                                                <>
-                                                                    <span className="completion mr-2">$ { elem.precio } EUR</span>
-                                                                </>
-                                                            )
-                                                        }
-                                                    </div>
-                                                </td>
-                                                <td className="text-right">
-                                                    <div className="dropdown">
-                                                        <a className="btn btn-sm btn-icon-only text-light" href="#" role="button"
-                                                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                            <i className="fas fa-ellipsis-v"></i>
-                                                        </a>
-                                                        <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                                            <a className="dropdown-item" href="#">Editar</a>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </>
-                                    ))
-                                }
-                                </tbody>
-                            </table>
-                        </div>
-                        <div className="card-footer py-3">
-                            <DataTablePagination length={2} currentPage={currentPage} setCurrentPage={setCurrentPage} />
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            <Material.TableContainer>
+                <Material.Table>
+                    <Material.TableHead>
+                        <Material.TableRow>
+                            {
+                                columns.map(colum => (
+                                    <>
+                                        <Material.TableCell>
+                                            <Material.TableSortLabel>{colum.nombre}</Material.TableSortLabel>
+                                        </Material.TableCell>
+                                    </>
+                                ))  
+                            }
+                        </Material.TableRow>
+                    </Material.TableHead>
+                    <Material.TableBody aria-label="list-table"  >
+                        {
+                            itemsDataTable.map((item, index) => (
+                                <Material.TableRow key={index} aria-label="item-list"  >
+                                    <Material.TableCell component="th" scope="row" padding="none" className="text--center">
+                                        <Material.Avatar  src={item.imagen} />
+                                    </Material.TableCell>
+                                    <Material.TableCell component="th" scope="row" padding="none">
+                                        {item.nombre}
+                                    </Material.TableCell>
+                                    <Material.TableCell component="th" scope="row" padding="none">
+                                        $ {item.precio} EUR
+                                    </Material.TableCell>
+                                    <Material.TableCell component="th" scope="row" padding="none">
+                                        {
+                                            item.descuento ? ( <> {item.descuento_porcenaje} % </> ) : ( <> No tiene </> )
+                                        }
+                                    </Material.TableCell>
+                                    <Material.TableCell component="th" scope="row" padding="none">
+                                        {
+                                            item.descuento_porcenaje ? (  <> $ { item.precio - item.precio * item.descuento_porcenaje / 100 } EUR </> ) : ( <>$ { item.precio } EUR </> )
+                                        }
+                                    </Material.TableCell>
+                                    <Material.TableCell component="th" scope="row" padding="none">
+                                        <Link  to={`/productos/${item.id}/`}>
+                                            <Material.Button id="editar" color="primary" >
+                                                <Material.Icon>edit</Material.Icon>
+                                            </Material.Button>
+                                        </Link>
+                                        <Material.Button id="eliminar" color="secondary" onClick={() => actionTable('eliminar', item)}   aria-controls="simple-menu" aria-haspopup="true" >
+                                            <Material.Icon>delete</Material.Icon>
+                                        </Material.Button>
+                                    </Material.TableCell>
+                                    
+                                </Material.TableRow>
+                            ))
+                        }
+                    </Material.TableBody>
+                </Material.Table>
+            </Material.TableContainer>
         </>
-    )
-}
+    );
+};
 
-export default DataTable
+
+
+DataTable.propTypes = {
+    name: PropTypes.string.isRequired,
+    endpoint: PropTypes.string.isRequired,
+    opctions: PropTypes.array.isRequired,
+    columns: PropTypes.array.isRequired,
+    filters: PropTypes.object.isRequired,
+    actionTable: PropTypes.func.isRequired,
+};
+export default DataTable;

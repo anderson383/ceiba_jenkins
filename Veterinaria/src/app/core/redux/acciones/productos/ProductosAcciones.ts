@@ -1,11 +1,12 @@
 import {
-  AGREGAR_PRODUCTO,
+  AGREGAR_PRODUCTO, EDITAR_PRODUCTO,
   ELIMINAR_PRODUCTO,
   LISTAR_PRODUCTOS,
   TiposAccionesProducto,
 } from './ProductosTiposAcciones';
 import { Producto } from 'app/feature/Producto/models/Producto';
 import { ProductoRepositorio } from 'app/core/api/productos.repositorio';
+import {Productos} from '../../../../feature/Productos/models/Producto';
 
 export function listarProductos(
   productos: Array<Producto>,
@@ -43,5 +44,12 @@ export function listarProductosAsync(numeroPagina: number) {
         listarProductos(respuesta.data.articles, respuesta.data.articlesCount)
       )
     );
+  };
+}
+
+export function EditarProducto (producto: Productos) {
+  return {
+    type: EDITAR_PRODUCTO,
+    payload: producto,
   };
 }

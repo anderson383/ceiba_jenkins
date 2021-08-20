@@ -11,4 +11,4 @@ export const ProductoRepositorio = {
 
 export const ProductosVeterinariaRepositorio = {
 
-}
+};

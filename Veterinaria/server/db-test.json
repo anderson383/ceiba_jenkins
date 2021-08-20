@@ -1,0 +1,109 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Cama"
+    },
+    {
+      "id": 2,
+      "nombre": "Collares"
+    },
+    {
+      "id": 3,
+      "nombre": "Repelente"
+    }
+  ],
+  "productos": [
+    {
+      "categoria": 2,
+      "descripcion": "Tiene un lindo diseño que es ideal para que tu mascota tenga su espacio privado dentro de tu hogar, con un toque atractivo, esta camita puedes colocarla en un espacio fresco para él,  cerca  de  ti, aunque tu mascota es sociable, en momentos necesita de su propio espacio, donde mejore su irritabilidad, le de paz, y mejore la circulación de la energía en su cuerpo.",
+      "envio_gratis": true,
+      "valor_envio": 0,
+      "descuento_porcenaje": 15,
+      "fecha_final_descuento": "2021-12-08T05:00:00.000Z",
+      "fecha_inicio_descuento": "2021-11-08T05:00:00.000Z",
+      "precio": 60,
+      "imagen": "https://www.ciudaddemascotas.com/pub/media/catalog/product/cache/69c62af52119a2e09af1a901268e75f5/t/a/tama_o_13_1.jpg",
+      "nombre": "Coasasdasdtal Perros Collar Pro Rosado Con Gris Small 3/4",
+      "id": 2,
+      "descuento": true,
+      "categorias": {
+        "id": 2,
+        "nombre": "Collares"
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Edupet Repelente Ambiental para mascotas (1000 Ml)",
+      "imagen": "https://www.ciudaddemascotas.com/pub/media/catalog/product/cache/69c62af52119a2e09af1a901268e75f5/m/i/mini_edupet_spray_1.jpg",
+      "descripcion": "Tiene un lindo diseño que es ideal para que tu mascota tenga su espacio privado dentro de tu hogar, con un toque atractivo, esta camita puedes colocarla en un espacio fresco para él,  cerca  de  ti, aunque tu mascota es sociable, en momentos necesita de su propio espacio, donde mejore su irritabilidad, le de paz, y mejore la circulación de la energía en su cuerpo.",
+      "precio": 100,
+      "descuento": true,
+      "descuento_porcenaje": 5,
+      "envio_gratis": true,
+      "valor_envio": 0,
+      "fecha_inicio_descuento": "11/08/2021 00:00 AM",
+      "fecha_final_descuento": "12/08/2021 00:00 AM",
+      "categoria": 3,
+      "categorias": {
+        "id": 3,
+        "nombre": "Repelente"
+      }
+    },
+    {
+      "categoria": 3,
+      "descripcion": "Esto es una configuracion de prueba muy rapida xd Esto es una configuracion de prueba muy rapida xd Esto es una configuracion de prueba muy rapida xd Esto es una configuracion de prueba muy rapida xd Esto es una configuracion de prueba muy rapida xd Esto es una configuracion de prueba muy rapida xd Esto es una configuracion de prueba muy rapida xdEsto es una configuracion de prueba muy rapida xd Esto es una configuracion de prueba muy rapida xdEsto es una configuracion de prueba muy rapida xdEsto es una configuracion de prueba muy rapida xdEsto es una configuracion de prueba muy rapida xd",
+      "envio_gratis": false,
+      "valor_envio": 2000,
+      "descuento_porcenaje": 15,
+      "fecha_final_descuento": "2021-08-20T22:41:49.000Z",
+      "fecha_inicio_descuento": "2021-08-18T19:38:46.000Z",
+      "precio": 32000,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_672442-MCO31278115645_062019-O.jpg",
+      "nombre": "Producto de prueba",
+      "id": 4,
+      "descuento": true,
+      "valor_descuento": 0,
+      "categorias": {
+        "id": 3,
+        "nombre": "Repelente"
+      }
+    },
+    {
+      "categoria": "1",
+      "descripcion": "asdadadaad",
+      "envio_gratis": true,
+      "valor_envio": 0,
+      "descuento_porcenaje": 100,
+      "fecha_final_descuento": "2021-08-19T03:37:58.000Z",
+      "fecha_inicio_descuento": "2021-07-05T03:37:58.000Z",
+      "precio": 1000,
+      "imagen": "http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg",
+      "nombre": "asdadad",
+      "id": 5,
+      "descuento": true,
+      "categorias": {
+        "id": 0,
+        "nombre": ""
+      }
+    },
+    {
+      "categoria": "2",
+      "descripcion": "adasasdasdasda",
+      "envio_gratis": false,
+      "valor_envio": 1000,
+      "descuento_porcenaje": 40,
+      "fecha_final_descuento": "2021-08-19T17:28:22.000Z",
+      "fecha_inicio_descuento": "2021-07-29T17:28:22.000Z",
+      "precio": 200,
+      "imagen": "https://www.nombresdeperros.eu/wp-content/uploads/2020/12/cachorro-blanco-de-nombre-Toby.jpg",
+      "nombre": "asdadad",
+      "id": 6,
+      "descuento": true,
+      "categorias": {
+        "id": 0,
+        "nombre": ""
+      }
+    }
+  ]
+}

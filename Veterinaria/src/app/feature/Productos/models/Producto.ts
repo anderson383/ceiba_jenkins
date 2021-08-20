@@ -1,13 +1,17 @@
+import {Categoria} from './Categoria';
+
 export interface Productos {
-    nombre: string,
+    id: number | string
+    nombre: string
     descripcion: string
     imagen: string
-    precio: number,
+    precio: number
     descuento: boolean
-    descuento_porcenaje: number | null
-    valor_descuento: number | null
+    descuento_porcenaje: number
     envio_gratis: boolean
-    valor_envio: number | null
+    valor_envio: number
     fecha_inicio_descuento: Date | null
     fecha_final_descuento: Date | null
+    categorias: Categoria
+    categoria: number | string
 }

@@ -1,6 +1,8 @@
+import * as PropTypes from 'prop-types';
 import * as React from 'react';
+import * as StylesBread from './styles';
+import {Breadcrumbs} from '@material-ui/core';
 import { Link } from 'app/shared/components/Link';
-import {Breadcrumbs, Link as LinkMaterial} from "@material-ui/core";
 
 export interface RutasBreadCrump {
     nombre: string
@@ -8,26 +10,36 @@ export interface RutasBreadCrump {
     path: string
 }
 
-
- interface BreadCrumpProps {
+interface BreadCrumpProps {
     nombrePage: string
-    rutas: RutasBreadCrump[]
+    rutas: Array<RutasBreadCrump>
 }
 
 const BreadCrump: React.FC<BreadCrumpProps> = ({nombrePage, rutas}) => {
+    const classes = StylesBread.useStyles();
     return (
         <>
-            <Breadcrumbs aria-label="breadcrumb">
-                {
-                    rutas.map((ruta, inde) => (
-                        <Link to={ruta.path}>
-                            <i className={ruta.icon}>{ruta.nombre}</i>
-                        </Link>
-                    ))
-                }
-            </Breadcrumbs>
+            <div className={classes.row}>
+                <StylesBread.TitlePage>{nombrePage} | </StylesBread.TitlePage>
+                {/* <titlePage>Productos  |</titlePage> */}
+                <Breadcrumbs aria-label="breadcrumb" className={classes.breadcrumb}>
+                    {
+                        rutas.map((ruta, inde) => (
+                            <Link to={ruta.path} key={inde}>
+                                <i className={ruta.icon}>{ruta.nombre}</i>
+                            </Link>
+                        ))
+                    }
+                </Breadcrumbs>
+            </div>
+            
         </>
-    )
-}
+    );
+};
 
-export default BreadCrump
+BreadCrump.propTypes = {
+    nombrePage: PropTypes.string.isRequired,
+    rutas: PropTypes.array.isRequired,
+};
+
+export default BreadCrump;
