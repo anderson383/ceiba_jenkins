@@ -1344,3 +1344,398 @@
 2021.08.20 12:28:15 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
 2021.08.20 12:28:15 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
 2021.08.20 12:28:15 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2021.08.20 12:53:33 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 12:53:34 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 12:53:35 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 12:53:35 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 12:53:35 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 12:53:35 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 12:53:37 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 12:53:37 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.9.5.38598 / cc0bd7b4d9e201f8b4939e5b674637feabf75207
+2021.08.20 12:53:41 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 12:53:41 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2021.08.20 12:53:41 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 12:53:42 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 12:53:43 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 12:53:43 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2021.08.20 12:53:43 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 6.2.2.13315 / 89eaee748b1c660c0d57ebac1fbdd3e4063713d8
+2021.08.20 12:53:43 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 2.1.0.4359 / 268ba9581b700c4fb2bc194d4069d283da915213
+2021.08.20 12:53:45 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@51d395df [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 12:53:46 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2021.08.20 12:53:46 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2021.08.20 12:53:47 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AXsuGVBDnDpzTzhuue-T
+2021.08.20 12:53:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2021.08.20 12:53:47 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/permissions/search_templates
+2021.08.20 12:53:47 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2021.08.20 12:53:47 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2021.08.20 12:53:48 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2021.08.20 12:53:48 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2021.08.20 12:53:48 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2021.08.20 12:53:48 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2021.08.20 12:53:50 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2021.08.20 12:53:51 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2021.08.20 12:53:51 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2021.08.20 12:53:51 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2021.08.20 12:53:51 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2021.08.20 12:53:51 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2021.08.20 12:53:51 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2021.08.20 12:53:51 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@7250ceef [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@6634abee [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@46ce84ad [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@23ae3405 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@5f583670 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@39b4829a [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@43400279 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@71559f47 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2021.08.20 12:53:51 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2021.08.20 12:53:51 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2021.08.20 12:55:11 INFO  web[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2021.08.20 12:55:11 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2021.08.20 12:55:11 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2021.08.20 12:55:11 INFO  web[][o.s.s.app.WebServer] WebServer stopped
+2021.08.20 13:04:38 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 13:04:39 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 13:04:40 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 13:04:40 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 13:04:40 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 13:04:40 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 13:04:41 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 13:04:41 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.9.5.38598 / cc0bd7b4d9e201f8b4939e5b674637feabf75207
+2021.08.20 13:04:42 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 13:04:42 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2021.08.20 13:04:42 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 13:04:42 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 13:04:44 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 13:04:44 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2021.08.20 13:04:44 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 6.2.2.13315 / 89eaee748b1c660c0d57ebac1fbdd3e4063713d8
+2021.08.20 13:04:44 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 2.1.0.4359 / 268ba9581b700c4fb2bc194d4069d283da915213
+2021.08.20 13:04:46 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@323da5ff [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 13:04:46 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2021.08.20 13:04:47 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2021.08.20 13:04:48 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AXsuGVBDnDpzTzhuue-T
+2021.08.20 13:04:48 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2021.08.20 13:04:48 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/permissions/search_templates
+2021.08.20 13:04:48 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2021.08.20 13:04:48 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2021.08.20 13:04:48 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2021.08.20 13:04:48 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2021.08.20 13:04:48 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2021.08.20 13:04:49 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2021.08.20 13:04:51 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2021.08.20 13:04:52 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2021.08.20 13:04:52 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2021.08.20 13:04:52 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2021.08.20 13:04:52 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2021.08.20 13:04:52 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2021.08.20 13:04:52 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2021.08.20 13:04:52 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@42d4a9a9 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@6ebdf16b [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@1609575 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@4fa4667b [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@1132480d [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@45f23796 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@37688d20 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@2c1916e [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2021.08.20 13:04:52 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2021.08.20 13:04:52 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2021.08.20 13:06:36 INFO  web[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2021.08.20 13:06:36 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2021.08.20 13:06:36 WARN  web[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:42050, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2021.08.20 13:06:36 WARN  web[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:42048, remoteAddress=null}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2021.08.20 13:06:37 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2021.08.20 13:06:37 INFO  web[][o.s.s.app.WebServer] WebServer stopped
+2021.08.20 13:07:12 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 13:07:13 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 13:07:13 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 13:07:13 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 13:07:13 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 13:07:13 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 13:11:54 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 13:11:54 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 13:11:55 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 13:11:55 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 13:11:55 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 13:11:55 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 13:11:56 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 13:11:56 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.9.5.38598 / cc0bd7b4d9e201f8b4939e5b674637feabf75207
+2021.08.20 13:11:57 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 13:11:57 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2021.08.20 13:11:57 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 13:11:57 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 13:11:59 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 13:11:59 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2021.08.20 13:11:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 6.2.2.13315 / 89eaee748b1c660c0d57ebac1fbdd3e4063713d8
+2021.08.20 13:11:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 2.1.0.4359 / 268ba9581b700c4fb2bc194d4069d283da915213
+2021.08.20 13:12:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@7bac9cea [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 13:12:01 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2021.08.20 13:12:02 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2021.08.20 13:12:03 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AXsuGVBDnDpzTzhuue-T
+2021.08.20 13:12:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2021.08.20 13:12:03 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/permissions/search_templates
+2021.08.20 13:12:03 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2021.08.20 13:12:03 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2021.08.20 13:12:03 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2021.08.20 13:12:03 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2021.08.20 13:12:03 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2021.08.20 13:12:04 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2021.08.20 13:12:06 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2021.08.20 13:12:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2021.08.20 13:12:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2021.08.20 13:12:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2021.08.20 13:12:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2021.08.20 13:12:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2021.08.20 13:12:07 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2021.08.20 13:12:07 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@2761cc72 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@3b7929d [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@5a05b198 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@6ba14249 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@6183d082 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@2a7be7a0 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@2ad41d36 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@5ef3ceb2 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2021.08.20 13:12:07 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2021.08.20 13:12:07 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'javascript' version : 6.2.2.13315 has not been found on the update center.
+2021.08.20 13:46:01 INFO  web[AXtjsK0Tg+GAielQAABG][o.s.u.c.UpdateCenter] The plugin 'typescript' version : 2.1.0.4359 has not been found on the update center.
+2021.08.20 13:49:21 INFO  web[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2021.08.20 13:49:21 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2021.08.20 13:49:21 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2021.08.20 13:49:22 INFO  web[][o.s.s.app.WebServer] WebServer stopped
+2021.08.20 14:08:50 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 14:08:51 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 14:08:52 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 14:08:52 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 14:08:52 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 14:08:52 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 14:08:53 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 14:08:53 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.9.5.38598 / cc0bd7b4d9e201f8b4939e5b674637feabf75207
+2021.08.20 14:08:54 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:08:54 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2021.08.20 14:08:54 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:08:54 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 14:08:56 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 14:08:56 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2021.08.20 14:08:57 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 6.2.2.13315 / 89eaee748b1c660c0d57ebac1fbdd3e4063713d8
+2021.08.20 14:08:57 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 2.1.0.4359 / 268ba9581b700c4fb2bc194d4069d283da915213
+2021.08.20 14:09:00 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@323da5ff [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:09:00 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2021.08.20 14:09:01 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2021.08.20 14:09:02 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AXsuGVBDnDpzTzhuue-T
+2021.08.20 14:09:02 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2021.08.20 14:09:02 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/permissions/search_templates
+2021.08.20 14:09:02 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2021.08.20 14:09:02 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2021.08.20 14:09:02 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2021.08.20 14:09:02 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2021.08.20 14:09:02 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2021.08.20 14:09:02 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2021.08.20 14:09:05 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2021.08.20 14:09:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2021.08.20 14:09:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2021.08.20 14:09:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2021.08.20 14:09:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2021.08.20 14:09:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2021.08.20 14:09:06 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2021.08.20 14:09:06 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@3aba9807 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@6798649f [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@13af94a2 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@640b5fdf [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@10ef849a [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@24afd071 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@670707fe [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2021.08.20 14:09:06 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@321b371 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2021.08.20 14:09:07 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2021.08.20 14:09:07 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2021.08.20 14:09:07 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2021.08.20 14:14:14 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 14:14:15 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 14:14:16 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 14:14:16 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 14:14:16 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 14:14:16 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 14:14:17 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 14:14:17 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.9.5.38598 / cc0bd7b4d9e201f8b4939e5b674637feabf75207
+2021.08.20 14:14:19 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:14:20 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2021.08.20 14:14:20 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:14:20 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 14:14:21 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 14:14:21 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2021.08.20 14:14:21 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 6.2.2.13315 / 89eaee748b1c660c0d57ebac1fbdd3e4063713d8
+2021.08.20 14:14:22 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 2.1.0.4359 / 268ba9581b700c4fb2bc194d4069d283da915213
+2021.08.20 14:14:23 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@5260292c [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:14:24 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2021.08.20 14:14:24 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2021.08.20 14:14:25 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AXsuGVBDnDpzTzhuue-T
+2021.08.20 14:14:25 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2021.08.20 14:14:25 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/permissions/search_templates
+2021.08.20 14:14:25 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2021.08.20 14:14:25 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2021.08.20 14:14:26 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2021.08.20 14:14:26 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2021.08.20 14:14:26 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2021.08.20 14:14:26 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2021.08.20 14:14:28 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2021.08.20 14:14:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2021.08.20 14:14:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2021.08.20 14:14:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2021.08.20 14:14:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2021.08.20 14:14:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2021.08.20 14:14:29 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2021.08.20 14:14:29 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@58e29de1 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@57bfe228 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@757c5e60 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@abb7f4a [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@ac133a4 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@54462002 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@59b4c3d [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@572f2a16 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2021.08.20 14:14:29 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2021.08.20 14:14:29 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2021.08.20 14:24:00 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 14:24:01 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 14:24:02 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 14:24:02 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 14:24:02 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 14:24:02 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 14:24:04 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 14:24:04 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.9.5.38598 / cc0bd7b4d9e201f8b4939e5b674637feabf75207
+2021.08.20 14:24:06 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:24:06 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2021.08.20 14:24:06 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:24:07 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 14:24:08 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 14:24:08 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2021.08.20 14:24:09 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 6.2.2.13315 / 89eaee748b1c660c0d57ebac1fbdd3e4063713d8
+2021.08.20 14:24:09 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 2.1.0.4359 / 268ba9581b700c4fb2bc194d4069d283da915213
+2021.08.20 14:24:11 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@1f190181 [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:24:11 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2021.08.20 14:24:12 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2021.08.20 14:24:12 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AXsuGVBDnDpzTzhuue-T
+2021.08.20 14:24:13 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2021.08.20 14:24:13 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/permissions/search_templates
+2021.08.20 14:24:13 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2021.08.20 14:24:13 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2021.08.20 14:24:13 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2021.08.20 14:24:13 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2021.08.20 14:24:13 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2021.08.20 14:24:13 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2021.08.20 14:24:16 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2021.08.20 14:24:17 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2021.08.20 14:24:17 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2021.08.20 14:24:17 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2021.08.20 14:24:17 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2021.08.20 14:24:17 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2021.08.20 14:24:17 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2021.08.20 14:24:17 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2021.08.20 14:24:17 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@75c9bee6 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:24:17 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@4569a0f8 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2021.08.20 14:24:17 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@2338f646 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2021.08.20 14:24:17 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@6903d60c [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2021.08.20 14:24:18 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@421cf13b [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2021.08.20 14:24:18 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@69bfe090 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2021.08.20 14:24:18 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@7f05e207 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2021.08.20 14:24:18 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@28a5a3ed [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2021.08.20 14:24:18 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2021.08.20 14:24:18 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2021.08.20 14:24:18 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2021.08.20 14:26:10 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2021.08.20 14:26:11 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2021.08.20 14:26:13 INFO  web[][o.e.p.PluginsService] no modules loaded
+2021.08.20 14:26:13 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 14:26:13 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 14:26:13 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 14:26:15 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 14:26:15 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 7.9.5.38598 / cc0bd7b4d9e201f8b4939e5b674637feabf75207
+2021.08.20 14:26:18 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:26:18 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2021.08.20 14:26:18 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:26:18 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 14:26:20 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 14:26:20 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2021.08.20 14:26:20 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 6.2.2.13315 / 89eaee748b1c660c0d57ebac1fbdd3e4063713d8
+2021.08.20 14:26:20 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 2.1.0.4359 / 268ba9581b700c4fb2bc194d4069d283da915213
+2021.08.20 14:26:22 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@7a0ddf2c [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:26:22 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2021.08.20 14:26:23 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2021.08.20 14:26:24 INFO  web[][o.s.s.s.LogServerId] Server ID: BF41A1F2-AXsuGVBDnDpzTzhuue-T
+2021.08.20 14:26:24 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/plugins/download
+2021.08.20 14:26:24 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/permissions/search_templates
+2021.08.20 14:26:24 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2021.08.20 14:26:24 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2021.08.20 14:26:24 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2021.08.20 14:26:24 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2021.08.20 14:26:24 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2021.08.20 14:26:25 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2021.08.20 14:26:29 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2021.08.20 14:26:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2021.08.20 14:26:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2021.08.20 14:26:29 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2021.08.20 14:26:30 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2021.08.20 14:26:30 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2021.08.20 14:26:30 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2021.08.20 14:26:30 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@1dad76c1 [pattern=UrlPattern{inclusions=[/api/issues/delete_comment.*, ...], exclusions=[/api/properties*, ...]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@51a92ece [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@376f02e [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@61113aa [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@32e8cf86 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@2cc55c4b [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@3920079 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@1b551fc7 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2021.08.20 14:26:30 INFO  web[][o.s.s.q.ProjectsInWarningDaemon] Counting number of projects in warning is not started as there are no projects in this situation.
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.p.PlatformLevelStartup] Running Community Edition
+2021.08.20 14:26:30 INFO  web[][o.s.s.p.Platform] WebServer is operational

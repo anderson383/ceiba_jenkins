@@ -2,56 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73daef21-037e-4ed0-b894-aabb848fb55e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Veterinaria/cypress/integration/1-Producto/CrearProducto.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/cypress/integration/1-Producto/EditarProducto.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/cypress/integration/1-Producto/EliminarProducto.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/server/db-test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/modelo/EstadoProductoVet.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/reductores/productos_vet/productosReductor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/DialogEliminar/DialogEliminar.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/DialogEliminar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/FormGestionProductos/FormGestionProductos.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/ImagenProducto/ImagenProducto.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/ImagenProducto/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/PrevGestionProductos/PrevGestionProductos.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/models/StateInitial.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/services/ProductosService.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/services/ResolveMocks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.lock.db" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.lock.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/web/deploy/plugins/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/web/deploy/plugins/index.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/access.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/ce.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/ce.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/es.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/es.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/sonar.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/sonar.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/server/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/AppRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/core/api/productos.repositorio.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/api/productos.repositorio.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/acciones/productos/ProductosAcciones.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/acciones/productos/ProductosAcciones.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/acciones/productos/ProductosTiposAcciones.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/acciones/productos/ProductosTiposAcciones.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/modelo/EstadoGeneral.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/modelo/EstadoGeneral.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/reductores/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/reductores/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Home/components/HolaMundo/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Home/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Home/pages/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/ProductosRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/ProductosRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/containers/GestionProductos/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/containers/GestionProductos/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/hoc/ProveedorGestionProductos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/hoc/ProveedorGestionProductos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/models/Categoria.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/models/Categoria.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/models/Producto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/models/Producto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/pages/Main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/BreadCrump/BreadCrump.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/BreadCrump/BreadCrump.spec.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/BreadCrump/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/BreadCrump/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/DataTable/DataTablePagination/DataTablePagination.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/DataTable/DataTablePagination/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/DataTable/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/DataTable/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/DataTable/services/DataTableService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/DataTable/services/DataTableService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/Link/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/Link/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/NavigationHeader/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/NavigationHeader/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +74,7 @@
       <workItem from="1628779100745" duration="12356000" />
       <workItem from="1629215569483" duration="85151000" />
       <workItem from="1629378056693" duration="36461000" />
-      <workItem from="1629459220981" duration="2563000" />
+      <workItem from="1629459220981" duration="9109000" />
     </task>
     <servers />
   </component>
