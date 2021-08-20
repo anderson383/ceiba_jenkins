@@ -202,11 +202,11 @@ export const FormGestionProductos:React.FC<FormGestionProductoProps> = (
                                                 onBlur={onBlur}
                                                 inputRef={ref}
                                                 value={value || ''}
-                                                data-testid={"select-categoriad"}
+                                                data-testid={'select-categoriad'}
                                                 onChange={onChange}
                                                 SelectDisplayProps={{
                                                     // @ts-ignore
-                                                    "data-testid": `select-categoriad`
+                                                    'data-testid': 'select-categoriad'
                                                 }}
                                             >
                                                 {
