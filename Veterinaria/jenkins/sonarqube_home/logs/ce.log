@@ -131,3 +131,72 @@
 2021.08.20 14:26:36 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
 2021.08.20 14:26:37 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
 2021.08.20 14:26:37 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2021.08.20 14:34:59 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=SimpleExpressExample:Test | type=REPORT | id=AXtj_INd5IN9m3wORCQd | submitter=admin
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=314ms
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=65ms
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=99ms
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Execute DB migrations for current project | status=SUCCESS | time=21ms
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=109ms
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.08.20 14:35:01 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Verify billing | status=SUCCESS | time=0ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=139 | status=SUCCESS | time=130ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=7ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=542ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=13ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=15ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=84 | dbFiles=64 | addedFiles=24 | movedFiles=0 | status=SUCCESS | time=119ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=4ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.08.20 14:35:02 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=58ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=794ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=22ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=7ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Copy custom measures | status=SUCCESS | time=3ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=4ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=6ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=24ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=5ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=5ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=3ms
+2021.08.20 14:35:03 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=87ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=987ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=1ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=16ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=6ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=6ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=8ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=196ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=48ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=2ms
+2021.08.20 14:35:05 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=81 | status=SUCCESS | time=96ms
+2021.08.20 14:35:09 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=6728 | status=SUCCESS | time=4406ms
+2021.08.20 14:35:09 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=2ms
+2021.08.20 14:35:09 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.08.20 14:35:10 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist issues | inserts=5 | updates=15 | merged=0 | untouched=3 | status=SUCCESS | time=183ms
+2021.08.20 14:35:10 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=5ms
+2021.08.20 14:35:10 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=9ms
+2021.08.20 14:35:10 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=775ms
+2021.08.20 14:35:10 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.08.20 14:35:10 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=14ms
+2021.08.20 14:35:10 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=4ms
+2021.08.20 14:35:11 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=456ms
+2021.08.20 14:35:13 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=2068ms
+2021.08.20 14:35:13 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=4ms
+2021.08.20 14:35:13 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.08.20 14:35:13 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.08.20 14:35:23 INFO  ce[AXtj_INd5IN9m3wORCQd][o.s.c.t.CeWorkerImpl] Executed task | project=SimpleExpressExample:Test | type=REPORT | id=AXtj_INd5IN9m3wORCQd | submitter=admin | status=SUCCESS | time=23952ms
+2021.08.20 14:40:10 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2021.08.20 14:41:30 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2021.08.20 14:41:30 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2021.08.20 14:41:31 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2021.08.20 14:41:31 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.08.20 14:41:31 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.08.20 14:41:31 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.08.20 14:41:35 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.08.20 14:41:35 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.08.20 14:41:36 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.08.20 14:41:38 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2021.08.20 14:41:39 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2021.08.20 14:41:40 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2021.08.20 14:41:41 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational

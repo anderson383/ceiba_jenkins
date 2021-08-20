@@ -60,7 +60,7 @@ pipeline {
                       -Dsonar.projectName=SimpleExpressExample \
                       -Dsonar.projectVersion=0.0.${BUILD_NUMBER} \
                       -Dsonar.host.url=http://192.168.0.7:9000 \
-                      -Dsonar.webhooks.project=http://127.0.0.1:8080/sonarqube-webhook/  \
+                      -Dsonar.webhooks.project=http://192.168.0.7:8080/sonarqube-webhook/  \
                       -Dsonar.sources=./${PROJECT_ROOT}/src \
                       -Dsonar.login=admin \
                       -Dsonar.password=admin \
