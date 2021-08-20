@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73daef21-037e-4ed0-b894-aabb848fb55e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.lock.db" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.lock.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/ce.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/ce.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/es.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/es.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/sonar.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/sonar.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +72,7 @@
       <workItem from="1628779100745" duration="12356000" />
       <workItem from="1629215569483" duration="85151000" />
       <workItem from="1629378056693" duration="36461000" />
-      <workItem from="1629459220981" duration="9561000" />
+      <workItem from="1629459220981" duration="9939000" />
     </task>
     <servers />
   </component>
