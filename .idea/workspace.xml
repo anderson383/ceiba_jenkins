@@ -21,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.lock.db" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.lock.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/web/deploy/plugins/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/web/deploy/plugins/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/access.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/ce.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/ce.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/es.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/es.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/sonar.log" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/logs/sonar.log" afterDir="false" />
@@ -113,7 +114,7 @@
       <workItem from="1628779100745" duration="12356000" />
       <workItem from="1629215569483" duration="85151000" />
       <workItem from="1629378056693" duration="36461000" />
-      <workItem from="1629459220981" duration="1889000" />
+      <workItem from="1629459220981" duration="2563000" />
     </task>
     <servers />
   </component>
