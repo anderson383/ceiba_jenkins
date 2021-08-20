@@ -3,7 +3,6 @@ import * as TestingLibrary from '@testing-library/react';
 import {FormGestionProductos} from './index';
 import {INITIAL_STATE_PRODUCTO} from '../../models/StateInitial';
 import {Productos} from '../../models/Producto';
-import {prettyDOM} from '@testing-library/react';
 
 interface setupParams {
     producto: Productos

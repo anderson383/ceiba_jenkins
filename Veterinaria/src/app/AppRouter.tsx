@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import MainPage from 'app/Main';
+import MainPage from 'app/MainPage';
 import { NavigationHeader } from 'app/shared/components/NavigationHeader';
 import {ProductosRouter} from 'app/feature/Productos/ProductosRouter';
 export const AppRouter = () => {

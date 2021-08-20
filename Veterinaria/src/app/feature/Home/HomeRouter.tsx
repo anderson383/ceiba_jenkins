@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { LazyFallback } from '../../shared/components/LazyFallback';
 
-const HomeMainPage = React.lazy(() => import('./pages/Main'));
+const HomeMainPage = React.lazy(() => import('./pages/HomeMainPage'));
 
 export const HomeRouter = () => (
   <React.Suspense fallback={<LazyFallback />}>

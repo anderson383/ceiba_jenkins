@@ -1,6 +1,6 @@
 import * as React from 'react';
 import BreadCrump, {RutasBreadCrump} from './index';
-import {RenderResult, fireEvent, prettyDOM, render, wait} from '@testing-library/react';
+import {RenderResult, render} from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 describe('Miga de pan de cada pagina test', () => {
