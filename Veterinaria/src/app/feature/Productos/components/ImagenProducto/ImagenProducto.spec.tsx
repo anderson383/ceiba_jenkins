@@ -3,7 +3,7 @@ import * as TestingLibrary from '@testing-library/react';
 import {ImagenProducto} from './index';
 
 
-describe('Servicio de productos',() => {
+describe('Componente generico para cargar una imagen',() => {
     let component: TestingLibrary.RenderResult;
     beforeEach(() => {
         component = TestingLibrary.render(<ImagenProducto imagen_ruta="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" texto_alernativo="imagen de perro prueba"  />);

@@ -4,7 +4,7 @@ import * as TestingLibrary from '@testing-library/react';
 
 
 
-describe('Formulario de gestion de productos', () => {
+describe('Componente modal para eliminar un producto', () => {
 
     const setup = (valoresIniciales: DialogEliminarConf.ConfigDialogProps) => {
         const mockSetValueDialog = jest.fn();
@@ -19,7 +19,7 @@ describe('Formulario de gestion de productos', () => {
         };
     };
 
-    it('Debe mostrar campos obligatorios al presionar submit ', async () => {
+    it('Debe mostrar una advertencia antes de eliminar', async () => {
         await TestingLibrary.wait(() => {
             const { component: {baseElement} } = setup({dialog: true, element: '23'});
             expect(baseElement).toHaveTextContent('¿Seguro que desea eliminar el producto?');

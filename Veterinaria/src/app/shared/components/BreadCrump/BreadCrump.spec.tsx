@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 describe('Miga de pan de cada pagina test', () => {
 
-    it('you must disable the back button if the current value is one ',  () => {
+    it('Debe mostrar los textos en que se envian por medio del array',  () => {
 
         const routes:Array<RutasBreadCrump> = [
             { nombre: '', path: '/', icon: 'fas fa-home' },

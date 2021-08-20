@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="73daef21-037e-4ed0-b894-aabb848fb55e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/AppRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Home/HomeRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Home/HomeRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Home/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Home/pages/HomeMainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Producto/ProductoRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Producto/ProductoRouter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Producto/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Producto/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/FormGestionProductos/FormGestionProductos.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/FormGestionProductos/FormGestionProductos.spec.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/jenkins/sonarqube_home/data/sonar.h2.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/reductores/productos_vet/productosReductor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/core/redux/reductores/productos_vet/productosReductor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/DialogEliminar/DialogEliminar.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/DialogEliminar/DialogEliminar.spec.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/ImagenProducto/ImagenProducto.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/feature/Productos/components/ImagenProducto/ImagenProducto.spec.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/BreadCrump/BreadCrump.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Veterinaria/src/app/shared/components/BreadCrump/BreadCrump.spec.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +70,7 @@
       <workItem from="1628779100745" duration="12356000" />
       <workItem from="1629215569483" duration="85151000" />
       <workItem from="1629378056693" duration="36461000" />
-      <workItem from="1629459220981" duration="14835000" />
+      <workItem from="1629459220981" duration="15979000" />
     </task>
     <servers />
   </component>
